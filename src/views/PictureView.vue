@@ -32,13 +32,10 @@ function closeBox() {
       <div class="text-white dark:text-blue-500" f-c-c absolute w-full bottom-5vh z-50 />
     </div>
   </div>
-  <div v-for="data in dataList">
-    <div mx-3 my-3 style="color: #6f6f6f; font-size: 20px; text-align: center">—— {{ data.month }} ——</div>
-    <!-- main -->
-    <div mx-3 gap-4 absolute columns-1 lg:columns-4 md:columns-3 sm:columns-2 xl:columns-5>
-      <div v-for="(item, index) in data.images" :key="index" @click="getInfo(item)">
-        <img v-lazy="item.url" mb-2 rounded w-full>
-      </div>
+  <!-- main -->
+  <div mx-3 gap-4 absolute columns-1 lg:columns-4 md:columns-3 sm:columns-2 xl:columns-5>
+    <div v-for="(item, index) in dataList" :key="index" @click="getInfo(item)">
+      <img v-lazy="item.url" mb-2 rounded w-full>
     </div>
   </div>
 </template>
