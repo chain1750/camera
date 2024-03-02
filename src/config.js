@@ -6,5 +6,5 @@ export default ({
   // 站点标题
   title: 'ChainCat',
   // 跳转链接
-  link: 'https://camera.chaincat.top'
+  link: 'https://chaincat.top'
 })
