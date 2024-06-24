@@ -1,0 +1,312 @@
+:root {
+    --text-color: #fff;
+    --bg-color: #fff
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #e0ed5e;
+        --bg-color: #000
+    }
+}
+
+html {
+    font-family: Pingfang SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, 微软雅黑, STHeitiSC-Light, "sans-serif"
+}
+
+html.dark {
+    color: var(--text-color);
+    background-color: var(--bg-color)
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+*, :before, :after {
+    --un-rotate: 0;
+    --un-rotate-x: 0;
+    --un-rotate-y: 0;
+    --un-rotate-z: 0;
+    --un-scale-x: 1;
+    --un-scale-y: 1;
+    --un-scale-z: 1;
+    --un-skew-x: 0;
+    --un-skew-y: 0;
+    --un-translate-x: 0;
+    --un-translate-y: 0;
+    --un-translate-z: 0;
+    --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-ring-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-shadow-inset: ;
+    --un-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-ring-inset: ;
+    --un-ring-offset-width: 0px;
+    --un-ring-offset-color: #fff;
+    --un-ring-width: 0px;
+    --un-ring-color: rgb(147 197 253 / .5);
+    --un-pan-x: ;
+    --un-pan-y: ;
+    --un-pinch-zoom: ;
+    --un-scroll-snap-strictness: proximity;
+    --un-ordinal: ;
+    --un-slashed-zero: ;
+    --un-numeric-figure: ;
+    --un-numeric-spacing: ;
+    --un-numeric-fraction: ;
+    --un-border-spacing-x: 0;
+    --un-border-spacing-y: 0;
+    --un-blur: ;
+    --un-brightness: ;
+    --un-contrast: ;
+    --un-drop-shadow: ;
+    --un-grayscale: ;
+    --un-hue-rotate: ;
+    --un-invert: ;
+    --un-saturate: ;
+    --un-sepia: ;
+    --un-backdrop-blur: ;
+    --un-backdrop-brightness: ;
+    --un-backdrop-contrast: ;
+    --un-backdrop-grayscale: ;
+    --un-backdrop-hue-rotate: ;
+    --un-backdrop-invert: ;
+    --un-backdrop-opacity: ;
+    --un-backdrop-saturate: ;
+    --un-backdrop-sepia:
+}
+
+::backdrop {
+    --un-rotate: 0;
+    --un-rotate-x: 0;
+    --un-rotate-y: 0;
+    --un-rotate-z: 0;
+    --un-scale-x: 1;
+    --un-scale-y: 1;
+    --un-scale-z: 1;
+    --un-skew-x: 0;
+    --un-skew-y: 0;
+    --un-translate-x: 0;
+    --un-translate-y: 0;
+    --un-translate-z: 0;
+    --un-ring-offset-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-ring-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-shadow-inset: ;
+    --un-shadow: 0 0 rgb(0 0 0 / 0);
+    --un-ring-inset: ;
+    --un-ring-offset-width: 0px;
+    --un-ring-offset-color: #fff;
+    --un-ring-width: 0px;
+    --un-ring-color: rgb(147 197 253 / .5);
+    --un-pan-x: ;
+    --un-pan-y: ;
+    --un-pinch-zoom: ;
+    --un-scroll-snap-strictness: proximity;
+    --un-ordinal: ;
+    --un-slashed-zero: ;
+    --un-numeric-figure: ;
+    --un-numeric-spacing: ;
+    --un-numeric-fraction: ;
+    --un-border-spacing-x: 0;
+    --un-border-spacing-y: 0;
+    --un-blur: ;
+    --un-brightness: ;
+    --un-contrast: ;
+    --un-drop-shadow: ;
+    --un-grayscale: ;
+    --un-hue-rotate: ;
+    --un-invert: ;
+    --un-saturate: ;
+    --un-sepia: ;
+    --un-backdrop-blur: ;
+    --un-backdrop-brightness: ;
+    --un-backdrop-contrast: ;
+    --un-backdrop-grayscale: ;
+    --un-backdrop-hue-rotate: ;
+    --un-backdrop-invert: ;
+    --un-backdrop-opacity: ;
+    --un-backdrop-saturate: ;
+    --un-backdrop-sepia:
+}
+
+.f-b-c, [f-b-c=""] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.f-c-c, [f-c-c=""] {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.flex-col, [flex-col=""] {
+    display: flex;
+    flex-direction: column
+}
+
+.wh-full {
+    width: 100%;
+    height: 100%
+}
+
+.px-6, [px-6=""] {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+
+.py-3, [py-3=""] {
+    padding-top: .75rem;
+    padding-bottom: .75rem
+}
+
+.mx-3, [mx-3=""] {
+    margin-left: .75rem;
+    margin-right: .75rem
+}
+
+.mb-2, [mb-2=""] {
+    margin-bottom: .5rem
+}
+
+.mt-2, [mt-2=""] {
+    margin-top: .5rem
+}
+
+.opacity-80 {
+    opacity: .8
+}
+
+.bg-black, [bg-black=""] {
+    --un-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--un-bg-opacity))
+}
+
+.rounded, [rounded=""] {
+    border-radius: .25rem
+}
+
+.rounded-lg, [rounded-lg=""] {
+    border-radius: .5rem
+}
+
+.text-6, [text-6=""] {
+    font-size: 1.5rem
+}
+
+.dark .dark\:text-blue-500 {
+    --un-text-opacity: 1;
+    color: rgb(59 130 246 / var(--un-text-opacity))
+}
+
+.text-white {
+    --un-text-opacity: 1;
+    color: rgb(255 255 255 / var(--un-text-opacity))
+}
+
+[font-bold=""] {
+    font-weight: 700
+}
+
+.flex, [flex=""] {
+    display: flex
+}
+
+.inline-flex, [inline-flex=""] {
+    display: inline-flex
+}
+
+.gap-4, [gap-4=""] {
+    gap: 1rem
+}
+
+.gap-5, [gap-5=""] {
+    gap: 1.25rem
+}
+
+.absolute, [absolute=""] {
+    position: absolute
+}
+
+.fixed, [fixed=""] {
+    position: fixed
+}
+
+.h-\[100\%\] {
+    height: 100%
+}
+
+.h-6, [h-6=""] {
+    height: 1.5rem
+}
+
+.h-75vh, [h-75vh=""] {
+    height: 75vh
+}
+
+.w-6, [w-6=""] {
+    width: 1.5rem
+}
+
+.w-full, [w-full=""] {
+    width: 100%
+}
+
+[h-20=""] {
+    height: 5rem
+}
+
+.items-center, [items-center=""] {
+    align-items: center
+}
+
+.bottom-5vh, [bottom-5vh=""] {
+    bottom: 5vh
+}
+
+.top-0 {
+    top: 0
+}
+
+.z-1 {
+    z-index: 1
+}
+
+.z-50, [z-50=""] {
+    z-index: 50
+}
+
+.columns-1, [columns-1=""] {
+    columns: 1
+}
+
+@media (min-width: 640px) {
+    .sm\:columns-2, [sm\:columns-2=""] {
+        columns: 2
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:columns-3, [md\:columns-3=""] {
+        columns: 3
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:columns-4, [lg\:columns-4=""] {
+        columns: 4
+    }
+}
+
+@media (min-width: 1280px) {
+    [xl\:columns-5=""] {
+        columns: 5
+    }
+}
