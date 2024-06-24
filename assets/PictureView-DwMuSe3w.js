@@ -13,76 +13,76 @@ import {
 } from "./index-mNaPpPgO.js";
 
 const j = [{
-        url: "../img/2024052003.jpeg",
+        url: "/camera/assets/2024052003.jpeg",
         desc: ""
     }, {
-        url: "../img/2024052002.jpeg",
+        url: "/camera/assets/2024052002.jpeg",
         desc: ""
     }, {
-        url: "../img/2024052001.jpeg",
+        url: "/camera/assets/2024052001.jpeg",
         desc: ""
     }, {
-        url: "../img/2024051204.jpeg",
+        url: "/camera/assets/2024051204.jpeg",
         desc: ""
     }, {
-        url: "../img/2024051203.jpeg",
+        url: "/camera/assets/2024051203.jpeg",
         desc: ""
     }, {
-        url: "../img/2024051202.jpeg",
+        url: "/camera/assets/2024051202.jpeg",
         desc: ""
     }, {
-        url: "../img/2024051201.jpeg",
+        url: "/camera/assets/2024051201.jpeg",
         desc: ""
     }, {
-        url: "../img/2024041303.jpeg",
+        url: "/camera/assets/2024041303.jpeg",
         desc: ""
     }, {
-        url: "../img/2024041302.jpeg",
+        url: "/camera/assets/2024041302.jpeg",
         desc: ""
     }, {
-        url: "../img/2024041301.jpeg",
+        url: "/camera/assets/2024041301.jpeg",
         desc: ""
     }, {
-        url: "../img/2024032202.jpeg",
+        url: "/camera/assets/2024032202.jpeg",
         desc: ""
     }, {
-        url: "../img/2024032201.jpeg",
+        url: "/camera/assets/2024032201.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030204.jpeg",
+        url: "/camera/assets/2024030204.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030203.jpeg",
+        url: "/camera/assets/2024030203.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030202.jpeg",
+        url: "/camera/assets/2024030202.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030201.jpeg",
+        url: "/camera/assets/2024030201.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030109.jpeg",
+        url: "/camera/assets/2024030109.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030108.jpeg",
+        url: "/camera/assets/2024030108.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030107.jpeg",
+        url: "/camera/assets/2024030107.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030106.jpeg",
+        url: "/camera/assets/2024030106.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030105.jpeg",
+        url: "/camera/assets/2024030105.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030104.jpeg",
+        url: "/camera/assets/2024030104.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030103.jpeg",
+        url: "/camera/assets/2024030103.jpeg",
         desc: ""
     }, {
-        url: "../img/2024030102.jpg",
+        url: "/camera/assets/2024030102.jpg",
         desc: ""
     }],
     f = c("div", {"bg-black": "", class: "opacity-80 absolute fixed h-[100%] wh-full top-0 z-1"}, null, -1),
