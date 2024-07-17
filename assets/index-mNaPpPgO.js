@@ -3287,7 +3287,7 @@ const jn = {isChinese: !0, avatar: "logo.png", title: "ChainCat", link: "https:/
             }
         }
     }, Dc = "modulepreload", Vc = function (e) {
-        return "/camera/" + e
+        return "/lx-camera/" + e
     }, gr = {}, zc = function (t, n, s) {
         let r = Promise.resolve();
         if (n && n.length > 0) {
@@ -4377,7 +4377,7 @@ function Qu(e, t) {
 }
 
 const qu = Wu({
-    history: Au("/camera/"),
+    history: Au("/lx-camera/"),
     routes: [{
         path: "/",
         name: "index",
